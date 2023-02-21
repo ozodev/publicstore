@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+/*Estilos principales para todas las paginas*/
+body{
+    background-image: linear-gradient(to right bottom,
+    #000000, #1d0210, #2a041e, #360131,
+    #3c0049, #3c0058, #380068, #2d027a,
+    #280481, #220688, #170990, #000d97);
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
