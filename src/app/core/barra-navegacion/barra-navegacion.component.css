@@ -1,0 +1,11 @@
+.boton-menu{
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.boton-menu:hover{
+    color: rgb(197, 197, 197);   
+}
+.boton-menu:active{
+    color: rgb(107, 107, 107);
+}
