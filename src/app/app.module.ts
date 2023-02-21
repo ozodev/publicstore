@@ -4,6 +4,7 @@ import { ExploradorSeriesModule } from './explorador-series/explorador-series.mo
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BarraNavegacionComponent } from './core/barra-navegacion/barra-navegacion.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { BarraNavegacionComponent } from './core/barra-navegacion/barra-navegaci
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ExploradorSeriesModule
+    ExploradorSeriesModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

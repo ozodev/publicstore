@@ -7,3 +7,5 @@ body{
     height: 100vh;
     font-family: 'Open Sans', sans-serif;
 }
+.menu-background{background: rgb(19, 19, 19)!important}
+.menu-background-glass{background: black!important}
